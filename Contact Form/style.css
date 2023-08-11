@@ -1,0 +1,54 @@
+body{
+    background:linear-gradient( #fdf497 0%, #fdf497 5%, #2e2aa8 45%, #6224d6 60%, #285aeb 100%);
+    height: 100vh;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 3.5rem;
+    line-height: 20%;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 12px;
+    margin:0px 13px ;
+    background-color: transparent;
+    border-radius: 23px;
+}
+input ,textarea,button{
+    background-color: transparent;
+    color: black;
+    padding: 8px;
+    margin: 6px 19px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+input::placeholder{
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.firstrow{
+    display: flex;
+    flex-direction: row;
+}
+textarea{
+    font-size: 1rem;
+    font-weight: 700;
+    color: black;
+}
+.btn{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
